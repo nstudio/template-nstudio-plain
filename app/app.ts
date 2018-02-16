@@ -55,6 +55,8 @@ if (isAndroid) {
 function checkUserAuthAndStartApp() {
 	try {
 		//  logic here to determine where to route user on app start
+		// by default, once you run the app and tap 'finish' on the slides on welcome screen
+		// you have completed onboarding so no need to show the welcome slides again
 		const hasViewedWelcome = DatabaseService.getItem(
 			DatabaseService.KEYS.hasViewedWelcome
 		);

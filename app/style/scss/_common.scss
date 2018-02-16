@@ -9,6 +9,11 @@
 @import '../../screens/home/home';
 @import '../../screens/welcome/welcome';
 
+ActionBar {
+	background-color: $primary;
+	color: $white;
+}
+
 .page {
 	background-color: $white;
 }

@@ -1,20 +1,21 @@
 <Page 
     xmlns="http://www.nativescript.org/tns.xsd" 
-    xmlns:Slides="nativescript-slides" loaded="onLoaded">
+    xmlns:Slides="nativescript-slides" 
+    xmlns:Lottie="nativescript-lottie" loaded="onLoaded">
     <Page.actionBar>
-        <ActionBar title="Welcome"></ActionBar>
+        <ActionBar title="nStudio.io"></ActionBar>
     </Page.actionBar>
     <Slides:SlideContainer id="slides" pageIndicators="true" loop="false" start="{{ onSlideStart }}" finished="{{ onSlideFinished }}">
         <Slides:Slide>
             <Label text="Welcome"/>
-            <Image src="~/assets/nstudio-1024.png" stretch="none" />
-            <Label text="{{ 'App Version: ' +  APP_VERSION }}" textWrap="true" />
+            <Lottie:LottieView src="lottiefiles/emoji_wink.json" height="120" loop="true" autoPlay="true" />
+            <Image src="~/assets/images/nstudio.png" stretch="aspectFit" height="150" width="150" />
+            <Label text="{{ 'App Version: ' +  APP_VERSION }}" textWrap="true" verticalAlignment="bottom" />
         </Slides:Slide>
         <Slides:Slide>
-            <DockLayout stretchLastChild="true">
-                <Label dock="top" text="Finished the slides to enjoy the app." textWrap="true" />
-                <Button class="primary-btn" dock="bottom" text="Finish" tap="{{ onFinishTap }}" />
-            </DockLayout>
+            <Label text="Finished the slides to enjoy the app." textWrap="true" />
+            <Lottie:LottieView src="lottiefiles/confetti.json" id="confettiLottie" height="200" loop="true" autoPlay="false" />
+            <Button class="primary-btn" width="90%" text="Finish" tap="{{ onFinishTap }}" verticalAlignment="bottom" />
         </Slides:Slide>
     </Slides:SlideContainer>
 </Page>

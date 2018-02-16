@@ -7,14 +7,13 @@
 		text-align: center;
 	}
 
+	Slide {
+		height: 100%;
+	}
+
 	Label {
 		padding: 14;
 		font-size: 28;
 		color: $black;
 	}
-}
-
-ActionBar {
-	background-color: $primary;
-	color: $white;
 }
