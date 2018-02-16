@@ -7,6 +7,9 @@
     "v8Flags": "--expose_gc",
     "markingMode": "none"
   },
+   "nativescript": {
+    "id": "io.nstudio.template",
+  },
   "main": "app.js",
   "name": "@nstudio/template-nstudio-plain",
   "version": "1.0.0",
