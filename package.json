@@ -8,17 +8,8 @@
     "markingMode": "none"
   },
   "main": "app.js",
-  "name": "tns-template-hello-world-ts",
-  "version": "3.4.0",
-  "nativescript": {
-    "id": "io.nstudio.template",
-    "tns-android": {
-      "version": "3.4.1"
-    },
-    "tns-ios": {
-      "version": "3.4.1"
-    }
-  },
+  "name": "@nstudio/template-nstudio-plain",
+  "version": "1.0.0",
   "dependencies": {
     "@nstudio/nativescript-camera-plus": "~1.0.0",
     "injection-js": "~2.2.1",
