@@ -1,7 +1,7 @@
 /**
  * Base Api Url for backend
  */
-export const BaseUrl: string = '';
+export const BaseUrl: string = "";
 
 /**
  * The default timeout of HTTP calls.

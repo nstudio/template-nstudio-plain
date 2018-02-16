@@ -1,5 +1,7 @@
 platforms
 node_modules
+hooks
+.vscode
 .hooks
 .idea
 .vscode

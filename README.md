@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://nstudio.io">
-    <img src="/images/nstudio-logo.png" alt="nStudio Logo"></a>
+    <img src="/assets/images/nstudio.png" alt="nStudio Logo"></a>
 </p>
 
 <p align="center">
