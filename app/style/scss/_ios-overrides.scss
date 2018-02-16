@@ -9,6 +9,11 @@ RadListView {
 	height: 100%;
 }
 
+Button {
+	padding: 6;
+	border-radius: 4;
+}
+
 .fab-button {
 	background-color: $accent;
 	horizontal-align: right;

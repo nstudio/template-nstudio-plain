@@ -1,10 +1,23 @@
-### Plain NativeScript App Template from nStudio
+<p align="center">
+  <a href="https://nstudio.io">
+    <img src="/images/nstudio-logo" alt="nStudio Logo"></a>
+</p>
 
-![nStudio Logo](images/nstudio-logo.png)
+<p align="center">
+  <h3>Plain NativeScript TypeScript App Template from [nStudio](https://nstudio.io)</h3>
+</p>
 
 This is an opinionated project setup with multiple plugins added, code dropped in for easy use by using your own values.
 
 The project contains many different helpers and utilities that we have encountered over the course of developing plain NativeScript apps and we believe this can be a great project to build production quality apps with when building with plain NativeScript.
+
+### To use the template
+
+`tns create my-app-name --template https://github.com/nstudio/template-nstudio-plain`
+
+### App Welcome and Home Page
+
+![App Demo Gif](images/app.gif)
 
 ## Features
 
