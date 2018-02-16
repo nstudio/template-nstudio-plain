@@ -1,0 +1,15 @@
+<Page 
+    xmlns="http://schemas.nativescript.org/tns.xsd" 
+    xmlns:FAB="nativescript-floatingactionbutton" navigatingTo="navigatingTo" class="page">
+    <Page.actionBar>
+        <ActionBar title="My App" icon="" class="action-bar"></ActionBar>
+    </Page.actionBar>
+    <GridLayout rows="auto,*" height="100%" width="100%">
+        <ListView id="userList" row="1" items="{{ users }}">
+            <ListView.itemTemplate>
+                <Label text="{{ name }}" textWrap="true" fontSize="15" margin="20" />
+            </ListView.itemTemplate>
+        </ListView>
+        <FAB:fab id="fabButton" row="1" icon="res://icon" rippleColor="#ffffff" class="fab-button" />
+    </GridLayout>
+</Page>

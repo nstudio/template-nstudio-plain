@@ -1,0 +1,75 @@
+// customized variables
+@import 'variables';
+@import 'buttons';
+@import 'swipe-indicators';
+
+@import '~nativescript-theme-core/scss/index';
+
+// screens
+@import '../../screens/home/home';
+@import '../../screens/welcome/welcome';
+
+.page {
+	background-color: $white;
+}
+
+.material-icon {
+	font-family: $material-icon;
+}
+
+.mdi {
+	font-family: $material-icon;
+}
+
+.ionicon {
+	font-family: $ionicon;
+}
+
+.text-accent {
+	color: $accent;
+}
+
+.text-blue {
+	color: $blue;
+}
+
+.text-grey {
+	color: $grey;
+}
+
+.text-red {
+	color: $red;
+}
+
+.text-warning {
+	color: $warning;
+}
+
+.text-green {
+	color: $green;
+}
+
+.text-white {
+	color: $white;
+}
+
+.text-black {
+	color: $black;
+}
+
+.align-center {
+	horizontal-align: center;
+	vertical-align: center;
+}
+
+.text-middle {
+	vertical-align: center;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.very-bold {
+	font-weight: 700;
+}

@@ -1,0 +1,47 @@
+/*** Buttons **/
+
+.image-button-background {
+	background-repeat: no-repeat;
+	background-size: 80% 60%;
+	background-position: center top;
+}
+
+.primary-btn {
+	background-color: $primary;
+	color: $white;
+}
+
+.primary-dark-btn {
+	background-color: $primaryDark;
+	color: $white;
+}
+
+.white-btn {
+	background-color: $white;
+	color: $black;
+}
+
+.black-btn {
+	background-color: $black;
+	color: $white;
+}
+
+.accent-btn {
+	background-color: $accent;
+	color: $white;
+}
+
+.btn-transparent {
+	background-color: transparent;
+	border-color: transparent;
+	border-width: 1 1 1 1;
+}
+
+.fab-button {
+	background-color: $accent;
+	horizontal-align: right;
+	vertical-align: bottom;
+	margin: 5 15 18 10;
+	height: 60;
+	width: 60;
+}

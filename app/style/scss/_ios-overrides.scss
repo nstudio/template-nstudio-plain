@@ -1,0 +1,19 @@
+@import '~nativescript-theme-core/scss/platforms/index.ios';
+
+listview {
+	height: 100%;
+	//   background-color: $base;
+}
+
+RadListView {
+	height: 100%;
+}
+
+.fab-button {
+	background-color: $accent;
+	horizontal-align: right;
+	vertical-align: bottom;
+	margin: 5 15 18 10;
+	height: 60;
+	width: 60;
+}

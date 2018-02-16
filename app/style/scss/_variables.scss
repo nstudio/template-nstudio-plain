@@ -1,0 +1,38 @@
+// baseline theme colors
+@import '~nativescript-theme-core/scss/light';
+
+/***** Fonts *****/
+$material-icon: MaterialIcons-Regular, Material Icons, 'Material Icons',
+	'MaterialIcons-Regular';
+$ionicon: ionicons, 'ionicons', Ionicons, 'Ionicons';
+/****************/
+
+// override theme colors
+$base: #f4f4f4;
+$white: #fff;
+$black: #333;
+$grey: #6f6f6f;
+$primary: #3f51b5;
+$primaryDark: #303f9f;
+$accent: #ff4081;
+$teal: #009688;
+$light-grey: #bdbdbd;
+$pink: #ff517c;
+// $secondary: #000077;
+$highlight: #f8b53c;
+$warning: #e65f61;
+// $bright:#4EFF0B;
+$red: #d0021b;
+$orange: #f78e25;
+$blue: #0996e4;
+$green: #06b050;
+// $yellow: #FFD110;
+$action-bar-match: $primary;
+
+// page
+// action-bar
+$ab-background: $primary;
+$ab-color: $white;
+// buttons
+$btn-color: $primary;
+$btn-color-inverse: $white;
