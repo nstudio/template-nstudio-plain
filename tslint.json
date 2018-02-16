@@ -2,7 +2,7 @@
 	"defaultSeverity": "error",
 	"extends": ["tslint:recommended"],
 	"linterOptions": {
-		"exclude": ["node_modules", "async-await.ts", "app/svg/**", "app/vendor-platform.ios.ts"]
+		"exclude": ["node_modules", "app/async-await.ts", "app/svg/**", "app/vendor-platform.ios.ts"]
 	},
 	"jsRules": {},
 	"rules": {
