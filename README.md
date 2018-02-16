@@ -1,6 +1,6 @@
 ### Plain NativeScript App Template from nStudio
 
-![nStudio Logo](https://github.com/nstudio/template-nstudio-plain/blob/master/images/nstudio-1024.png =250x250)
+![nStudio Logo](images/nstudio-logo.png)
 
 This is an opinionated project setup with multiple plugins added, code dropped in for easy use by using your own values.
 
