@@ -19,7 +19,7 @@ The project contains many different helpers and utilities that we have encounter
 
 ### App Welcome and Home Page
 
-![App Demo Gif](images/app.gif)
+![App Demo Gif](assets/images/app.gif)
 
 ## Features
 
