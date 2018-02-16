@@ -4,7 +4,9 @@
 </p>
 
 <p align="center">
-  <h3>Plain NativeScript TypeScript App Template from [nStudio](https://nstudio.io)</h3>
+  <h3 align="center">Plain NativeScript TypeScript App Template from 
+    <a href="https://nstudio.io">nStudio</a>
+  </h3>
 </p>
 
 This is an opinionated project setup with multiple plugins added, code dropped in for easy use by using your own values.
